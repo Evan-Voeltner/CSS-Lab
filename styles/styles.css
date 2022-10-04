@@ -7,6 +7,29 @@ header{
     text-align: center;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(90, 15, 15);
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: 'Trebuchet MS';
+    text-decoration: none;
+  }
+
 /* This will apply all included styles to any element which uses the "logo" class*/
 .logo {
     display: block;
@@ -17,7 +40,16 @@ header{
 
 /* This will apply any included styles to the body element */
 body{
-
+    font-family: 'Trebuchet MS';
 }
 
 /* Create your own classes below! */
+
+.pretty-p{
+    padding: 20px;
+    width: 400px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+}
