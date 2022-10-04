@@ -41,6 +41,7 @@ ul {
 /* This will apply any included styles to the body element */
 body{
     font-family: 'Trebuchet MS';
+    background-color: 	#6633cc  ;
 }
 
 /* Create your own classes below! */
@@ -52,4 +53,27 @@ body{
     border-color: black;
     border-style: solid;
     border-radius: 10px;
+    text-align: justify;
+}
+
+.pretty-p-lime{
+    padding: 20px;
+    width: 400px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: justify;
+    background-color: #99cc33;
+}
+
+.pretty-p-blue{
+    padding: 20px;
+    width: 400px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: justify;
+    background-color: #3399cc;
 }
